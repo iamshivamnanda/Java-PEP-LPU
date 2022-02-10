@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="con1" class="com.javapep.bean.connection" scope="prototype">
+    <property name="url"  value="www.iamshivamnanda.com"/>
+    <property name="username"  value="shivamnanda"/>
+    <property name="password"  value="nanda"/>
+</bean>
+
+</beans>
